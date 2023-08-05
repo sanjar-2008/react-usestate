@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .8s;
+    flex-direction: column;
+}
+.card-block{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+}
+.card-block p{
+    padding-top: 25px;
+    text-align: right;
+}
+.card-block button{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    transition: .8s;
+}

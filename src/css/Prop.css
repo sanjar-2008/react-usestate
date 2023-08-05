@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prop{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 25px;
+    margin: 60px auto;
+}
+.prop div{
+    display: flex;
+    margin-top: 40px;
+}
+.white{
+    background: white;
+    color: black;
+}
+.dark{
+    background: black;
+    color: white;
+}
